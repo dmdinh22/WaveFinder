@@ -54,6 +54,7 @@
 		544D554421D6D86000EAFD32 /* WaveFinder */ = {
 			isa = PBXGroup;
 			children = (
+				544D555721D6D86A00EAFD32 /* CustomViews */,
 				544D554521D6D86000EAFD32 /* AppDelegate.swift */,
 				544D554721D6D86000EAFD32 /* ViewController.swift */,
 				544D554921D6D86000EAFD32 /* Main.storyboard */,
@@ -62,6 +63,13 @@
 				544D555121D6D86200EAFD32 /* Info.plist */,
 			);
 			path = WaveFinder;
+			sourceTree = "<group>";
+		};
+		544D555721D6D86A00EAFD32 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
