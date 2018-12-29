@@ -9,12 +9,23 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let backgroundImageView = UIImageView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        setBackground()
     }
 
-
+    func setBackground() {
+        view.addSubview(backgroundImageView)
+        
+        // set to false in order to use autolayout
+        backgroundImageView.translatesAutoresizingMaskIntoConstraints = false
+        
+        // pin top of UIIMageView to top of view
+        backgroundImageView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+    }
 }
 
