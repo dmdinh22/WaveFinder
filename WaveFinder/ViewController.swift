@@ -31,6 +31,7 @@ class ViewController: UIViewController {
         backgroundImageView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
         
         backgroundImageView.image = UIImage(named: "background-wave")
+        view.sendSubviewToBack(backgroundImageView)
     }
 }
 
