@@ -43,15 +43,24 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wave-logo" translatesAutoresizingMaskIntoConstraints="NO" id="c7B-9I-PBO">
+                                <rect key="frame" x="87.5" y="108.5" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Dmt-T0-lSf"/>
+                                    <constraint firstAttribute="height" constant="200" id="nxS-oh-Pfh"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tJF-eF-5K9" secondAttribute="bottom" constant="20" id="07U-5d-fvV"/>
                             <constraint firstItem="sBO-Sl-UNw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="11G-ah-YOr"/>
+                            <constraint firstItem="c7B-9I-PBO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="36G-o8-BwA"/>
                             <constraint firstItem="tJF-eF-5K9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="3iZ-bL-ChD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tJF-eF-5K9" secondAttribute="trailing" constant="30" id="4N1-xh-eSf"/>
                             <constraint firstAttribute="trailingMargin" secondItem="sBO-Sl-UNw" secondAttribute="trailing" constant="30" id="5fd-VO-GcI"/>
                             <constraint firstItem="tJF-eF-5K9" firstAttribute="top" secondItem="PJV-yq-mrw" secondAttribute="bottom" constant="40" id="C0F-To-gvR"/>
+                            <constraint firstItem="c7B-9I-PBO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-125" id="JKj-WL-ER2"/>
                             <constraint firstItem="PJV-yq-mrw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="cOj-6b-Xw1"/>
                             <constraint firstAttribute="trailingMargin" secondItem="PJV-yq-mrw" secondAttribute="trailing" constant="30" id="lKh-7c-drE"/>
                             <constraint firstItem="PJV-yq-mrw" firstAttribute="top" secondItem="sBO-Sl-UNw" secondAttribute="bottom" constant="10" id="p36-Ld-rEc"/>
@@ -63,4 +72,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="wave-logo" width="1019" height="1024"/>
+    </resources>
 </document>
